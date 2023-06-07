@@ -1,0 +1,48 @@
+@font-face {
+	font-family: SignikaLight;
+	src: url('../fonts/Signika-Light.ttf')
+}
+
+@font-face {
+	font-family: SignikaRegular;
+	src: url('../fonts/Signika-Regular.ttf')
+}
+
+@font-face {
+	font-family: SignikaMedium;
+	src: url('../fonts/Signika-Medium.ttf')
+}
+
+@font-face {
+	font-family: SignikaBold;
+	src: url('../fonts/Signika-Bold.ttf')
+}
+
+body { font-family: SignikaRegular, sans-serif !important; }
+
+.container {
+	padding: 10px 0;
+}
+
+h1 {
+	font-family: SignikaBold;
+	width: fit-content;
+	margin: 20px auto !important;
+}
+
+.salam {
+	background-color: #F3F4F7;
+	border-radius: 10px;
+	text-align: center;
+	margin: 30px auto;
+	padding: 10px;
+	width: 70%;
+}
+
+table.table { margin: 50px auto !important;}
+
+.btn-tambah {
+	display: block !important;
+	margin: 10px auto;
+	max-width: 150px;
+}
